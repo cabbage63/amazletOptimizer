@@ -1,7 +1,7 @@
 language: python
 python:
   - 2.7
+install:
+  - pip install --upgrade google-api-python-client 
 script:
-  - sudo pip install --upgrade google-api-python-client
-  - sudo pip install --upgrade oauth2client
   - python amazletOptimizer.py
