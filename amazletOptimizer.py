@@ -8,7 +8,7 @@ def main(argv):
   service, flags = sample_tools.init( argv, 'blogger', 'v3', __doc__, __file__, scope='https://www.googleapis.com/auth/blogger')
 
   #input your blog ID
-  BLOG_ID = ********************
+  BLOG_ID = 00000000000000000
 
   try:
       posts = service.posts()
