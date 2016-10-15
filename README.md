@@ -22,6 +22,7 @@ $ git clone git@github.com:cabbage63/amazletOptimizer.git
 
 ### 3. client_secrets.jsonのAPI情報を更新
 [Blogger API: Using the API  |  Blogger  |  Google Developers](https://developers.google.com/blogger/docs/3.0/using#auth)
+
 こちらのサイトを参考にしながらBloggerのAPIキーを取得してください。
 取得できたらクライアントIDとクライアントシークレットを`client_secrets.json`中の対応する変数を変更してください。
 ```
@@ -36,6 +37,9 @@ Bloggerのブログ管理画面のURL`https://www.blogger.com/blogger.g?blogID=*
   BLOG_ID = ********************
 ```
 ### 5. 実行
+万が一に備えて記事のバックアップをとっておいてください。
+管理画面のサイドメニューより、設定＞その他＞コンテンツをバックアップで可能です。
+
 ```
 $ python amazletOptimizer.py
 ```
