@@ -1,0 +1,6 @@
+language: python
+python:
+  - 2.7
+script:
+  - sudo pip install --upgrade google-api-python-client
+  - python amazletOptimizer.py
